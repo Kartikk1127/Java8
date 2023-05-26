@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        CalculatorImpl calculator = new CalculatorImpl();
+        Calculator calculator = ()->{
+            System.out.println("switch is now on");
+        };
         calculator.switchOn();
     }
 }
